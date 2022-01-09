@@ -10,6 +10,16 @@ function greet(name) {
   // Your code here
 }
 
+function greet(name){
+let name = "Hello Hamza"
+
+console.log(name)
+
+
+}
+
+greetname()
+
 /**
  * isOdd(n):
  * - receives a number n
