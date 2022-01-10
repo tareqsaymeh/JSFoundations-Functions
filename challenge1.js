@@ -4,13 +4,14 @@
  * - that just prints your name on the screen
  */
 
-function printName () {
 
-  console.log("My name is Tareq")
+function printName() {
+
+  console.log(`My name is Tareq`);
 
 }
 
-printName ()
+printName ();
 
 /**
  * Task 2:
@@ -20,14 +21,14 @@ printName ()
  * - Age = current year - birth
  */
 
-    function getprintAge (birthAge){
-let birthAge = (2022 - 1981)
-console.log(birthAge)
+   function printAge(birthYear, currentYear); {
+const currentYear = 2022;
+const age = currentYear - birthYear;
+console.log(`i am ${2022 - birthYear}`);
 
-    }
+   }
 
-    birthAge()
-
+printAge(1996, 2022);
 
 /**
  * Task 3:
@@ -40,21 +41,10 @@ console.log(birthAge)
  * -- tr: it should print `Merhaba NAME`
  */
 
-function printHello(name, language){
-
-let printHello;
-if (en)
-printHello = "Hello Name"
-else if (es)
-printHello = "Hola Name"
-else if (fr)
-printHello = "Bonjour Name"
-else if (tr)
-printHello = "marhaba"
 
 
-}
-printHello()
+
+
 
 
 
@@ -65,15 +55,3 @@ printHello()
  * - should print out the bigger number
  */
 
-function printMax(n1, n2){
-
-n1 = 30
-n2 = 20
-
-if(n1>n2)
-
-console.log(n1)
-
-}
-
-printMax()
